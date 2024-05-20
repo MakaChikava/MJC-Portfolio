@@ -3,14 +3,19 @@ import './App.css';
 function App() {
   return (
     <div>
-      <nav>
-        <span>Mazvita Chikava</span>
-        <h1>profile</h1>
-        <h1>about</h1>
-        <h1>experience</h1>
-        <h1>contact-me</h1>
+      <nav className='flex justify-between h-[80px]'>
+        <div className='flex items-center'>
+          <span className='font-semibold'>Mazvita Strohmeyer</span>
+        </div>
+
+        <div className='flex items-center justify-between w-[300px]'>
+          <h1>profile</h1>
+          <h1>about</h1>
+          <h1>experience</h1>
+          <h1>contact</h1>
+        </div>
       </nav>
-      
+
       <section id='profile'>
 
       </section>
