@@ -3,16 +3,16 @@ import './App.css';
 function App() {
   return (
     <div>
-      <nav className='flex justify-between h-[80px]'>
-        <div className='flex items-center'>
-          <span className='font-semibold'>Mazvita Strohmeyer</span>
+      <nav className='flex justify-between h-[80px] bg-black drop-shadow-xl'>
+        <div className='flex items-center ml-4'>
+          <span className='font-semibold text-white'>Mazvita Strohmeyer</span>
         </div>
 
-        <div className='flex items-center justify-between w-[300px]'>
-          <h1>profile</h1>
-          <h1>about</h1>
-          <h1>experience</h1>
-          <h1>contact</h1>
+        <div className='flex items-center justify-between mr-4 w-[300px]'>
+          <h1 className='text-white'>Profile</h1>
+          <h1 className='text-white'>About</h1>
+          <h1 className='text-white'>Experience</h1>
+          <h1 className='text-white'>Contact</h1>
         </div>
       </nav>
 
