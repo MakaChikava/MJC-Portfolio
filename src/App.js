@@ -1,23 +1,29 @@
-
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <nav>
+        <span>Mazvita Chikava</span>
+        <h1>profile</h1>
+        <h1>about</h1>
+        <h1>experience</h1>
+        <h1>contact-me</h1>
+      </nav>
+      
+      <section id='profile'>
+
+      </section>
+      <section id='about'>
+
+      </section>
+      <section id='experience'>
+
+      </section>
+      <section id='contact-me'>
+
+      </section>
+    
     </div>
   );
 }
