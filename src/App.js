@@ -17,9 +17,9 @@ function App() {
       </nav>
 
       <section id='profile'>
-        <div>
+        <div id='profile-container'>
           <div id='profile-pic-container'>
-            image
+            <img src='blah.jpeg'/>
           </div>
 
           <div id='headline-container'>
@@ -27,7 +27,7 @@ function App() {
             <h1 id='name'>Mazvita Strohmeyer</h1>
             <h1 id='title'>Talent Acquisitionist</h1>
 
-            <div id='headline-btn-container'>
+            <div id='headline -btn-container'>
               <button id='resume-btn'>Download CV</button>
               <button id='contact-btn'>Contact Info</button>
             </div>
