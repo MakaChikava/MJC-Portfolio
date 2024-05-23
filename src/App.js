@@ -26,7 +26,7 @@ function App() {
           <div id='headline-container' className='flex flex-col justify-center items-center w-1/3'>
             <p className='font-semibold text-[15px] text-gray-600'>Hello I'm</p>
             <h1 id='name' className='font-bold text-[35px]'>Mazvita Strohmeyer</h1>
-            <h1 id='title' className='font-semibold text-[23px] text-gray-700'>Talent Acquisition</h1>
+            <h1 id='title' className='font-semibold text-[23px] text-gray-700'>Marketing</h1>
 
             <div id='headline-btn-container' className='flex w-2/3 justify-around'>
               <button id='resume-btn' className='bg-black rounded-full p-4 text-white font-bold'>Download CV</button>
