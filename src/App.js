@@ -1,5 +1,6 @@
 import './App.css';
 import mazpic from './assets/maz.jpg'
+import aboutMePic from './assets/mazaboutme.png'
 
 function App() {
   return (
@@ -37,8 +38,21 @@ function App() {
         </div>
       </section>
       <section id='about'>
-        <div id=''>
+        <div id='about-me-container' className='flex'>
+          <div id='about-pic' className='flex'>
+            <img src={aboutMePic} className='h-[450px] w-[600px] rounded-full'/>
+          </div>
+          <div id='aboutme-content-container' className='flex flex-col h-[450px] w-[400px]'>
+            <p className='m-3'>I'm Mazvita , but most people in my life call me Maz! I am a plant obsessed, puzzle loving social marketer who bases her life's philosophy on nurturing creativity, positive interactions and growth.
+            </p>
 
+            <p className='m-3'>I received my undergraduate degree  in Psychology from Seattle Pacific University and I’m a self-taught creative who hails from the Sunshine City, Harare, in Zimbabwe. I’m heavily influenced by the delicate yet profound nuances that are embedded within different
+            </p>
+
+            <p className='m-3'>cultures like patterns, historic writings, graphic symbols and colour as a form of visual and global communication.
+            </p>
+
+          </div>
         </div>
       </section>
       <section id='experience'>
