@@ -61,8 +61,8 @@ function App() {
         </div>
 
       </section>
-      <section id='experience'>
-
+      <section id='experience' className='flex h-screen'>
+        
       </section>
       <section id='contact-me'>
 
