@@ -1,8 +1,30 @@
 import './App.css';
 import mazpic from './assets/maz.jpg'
 import aboutMePic from './assets/mazaboutme.png'
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [experience, setExperience] = useState()
+
+  const getExperience1 = ()=>{
+    return(
+      <div id='experience-slides' className='flex flex-col h-full'>
+        <div id='experience-links-container' className='flex justify-center'>
+          <h1 className='font-bold underline mx-12 text-[25px]'>Content Creation</h1>
+          <h1 className='mx-12 text-[25px]'>Social Media Management & Growth</h1>
+          <h1 className='mx-12 text-[25px]'>Design</h1>
+        </div>
+        <div id='content'>
+          <h1 className='text-center'>Testing Experience 1</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor condimentum lacinia quis vel eros donec ac odio. Eget dolor morbi non arcu risus quis. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Pellentesque elit ullamcorper dignissim cras tincidunt. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Sed sed risus pretium quam vulputate dignissim suspendisse in. Dui vivamus arcu felis bibendum ut tristique et egestas. Sit amet nisl purus in mollis nunc sed id.</p>
+        </div>
+      </div>
+    )
+  }
+
+  useEffect(()=>{
+    getExperience1()
+  })
   return (
     <div id='body'>
       <nav className='flex justify-between h-[80px] bg-black drop-shadow-xl'>
@@ -39,8 +61,8 @@ function App() {
       </section>
       <section id='about' className='flex flex-col h-screen'>
         <div className='flex flex-col items-center'>
-          <p className='text-center text-[18px]'>Get to know more</p>
-          <h1 className='text-center text-[50px] font-bold'>About Me</h1>
+          <p id='section-preheader' className='text-center text-[18px]'>Get to know more</p>
+          <h1 id='section-header' className='text-center text-[50px] font-bold'>About Me</h1>
         </div>
 
         <div className='flex justify-center items-center h-full'>
@@ -61,8 +83,23 @@ function App() {
         </div>
 
       </section>
-      <section id='experience' className='flex h-screen'>
-        
+      <section id='experience' className='flex flex-col h-screen'>
+        <div className='flex flex-col items-center'>
+          <p id='section-preheader' className='text-center text-[18px]'>Explore my</p>
+          <h1 id='section-header' className='text-center text-[50px] font-bold'>Experience</h1>
+        </div>
+
+        <div id='experience-slides' className='flex flex-col h-full'>
+        <div id='experience-links-container' className='flex justify-center'>
+            <h1 className='font-bold underline mx-12 text-[25px]'>Content Creation</h1>
+            <h1 className='mx-12 text-[25px]'>Social Media Management & Growth</h1>
+            <h1 className='mx-12 text-[25px]'>Design</h1>
+        </div>
+        <div id='content-creation-experience'>
+          <h1 className='text-center'>Testing Experience 1</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor condimentum lacinia quis vel eros donec ac odio. Eget dolor morbi non arcu risus quis. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Pellentesque elit ullamcorper dignissim cras tincidunt. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Sed sed risus pretium quam vulputate dignissim suspendisse in. Dui vivamus arcu felis bibendum ut tristique et egestas. Sit amet nisl purus in mollis nunc sed id.</p>
+        </div>
+        </div>
       </section>
       <section id='contact-me'>
 
