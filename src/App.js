@@ -52,7 +52,7 @@ function App() {
             <h1 id='title' className='font-semibold text-[30px] text-gray-500'>Social Media Marketing</h1>
 
             <div id='profile-btn-container' className='flex w-[350px] justify-around mt-5'>
-              <button id='resume-btn' className='bg-black rounded-full p-4 text-white font-bold'>Download CV</button>
+              <button id='resume-btn' className='bg-gray-200 hover:bg-black rounded-full p-4 text-white font-bold '>Download CV</button>
               <button id='contact-btn' className='bg-black rounded-full p-4 text-white font-bold'>Contact Info</button>
             </div>
           </div>
