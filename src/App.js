@@ -98,25 +98,29 @@ function App() {
 
         <div id='experience-slides' className='flex flex-col h-full'>
         <div id='experience-links-container' className='flex justify-center'>
-            <h1 className='font-bold underline mx-12 text-[25px]'
+            <h1 className={exp1 ? ' underline mx-12 text-[25px]' : 'mx-12 text-[25px]'}
                 onClick={e => toggleExp1()}
             >Content Creation</h1>
-            <h1 className='mx-12 text-[25px]'
+            <h1 className={exp2 ? ' underline mx-12 text-[25px]' : 'mx-12 text-[25px]'}
                 onClick={e => toggleExp2()}
             >Social Media Management & Growth</h1>
-            <h1 className='mx-12 text-[25px]'
+            <h1 className={exp3 ? ' underline mx-12 text-[25px]' : 'mx-12 text-[25px]'}
                 onClick={e => toggleExp3()}
             >Design</h1>
         </div>
         <div id='content-creation-experience'>
           <h1 id='exp1' className={exp1 ? 'text-center' : 'hidden'}>Testing Experience 1</h1>
-          <p id='exp1' className={exp1 ? '' : 'hidden'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor condimentum lacinia quis vel eros donec ac odio. Eget dolor morbi non arcu risus quis. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Pellentesque elit ullamcorper dignissim cras tincidunt. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Sed sed risus pretium quam vulputate dignissim suspendisse in. Dui vivamus arcu felis bibendum ut tristique et egestas. Sit amet nisl purus in mollis nunc sed id.</p>
+          <p id='exp1' className={exp1 ? '' : 'hidden'}>End-to-End Magic: Mastering the Full Content Creation Process
+
+From the initial spark of an idea to its final polished release, I excel in every stage of the content creation journey. My hands-on approach ensures a deep connection to the work, fostering creativity and attention to detail.
+
+I have a proven track record of producing quality still and video assets, coupled with the strategic development of social media calendars and scheduling. This combination guarantees a consistent and engaging brand presence across all platforms. My holistic involvement in content creation not only enhances the quality of the output but also drives impactful marketing results.</p>
         
           <h1 id='exp1' className={exp2 ? 'text-center' : 'hidden'}>Testing Experience 2</h1>
-          <p id='exp1' className={exp2 ? '' : 'hidden'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor condimentum lacinia quis vel eros donec ac odio. Eget dolor morbi non arcu risus quis. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Pellentesque elit ullamcorper dignissim cras tincidunt. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Sed sed risus pretium quam vulputate dignissim suspendisse in. Dui vivamus arcu felis bibendum ut tristique et egestas. Sit amet nisl purus in mollis nunc sed id.</p>
+          <p id='exp1' className={exp2 ? '' : 'hidden'}>For Tansy, a Black woman-owned plant nursery and gift shop, I developed and executed social media strategies that boosted engagement, reach, and conversions. This approach significantly enhanced Tansy's online presence, driving greater visibility and sales.</p>
         
           <h1 id='exp1' className={exp3 ? 'text-center' : 'hidden'}>Testing Experience 3</h1>
-          <p id='exp1' className={exp3 ? '' : 'hidden'}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor condimentum lacinia quis vel eros donec ac odio. Eget dolor morbi non arcu risus quis. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Pellentesque elit ullamcorper dignissim cras tincidunt. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Sed sed risus pretium quam vulputate dignissim suspendisse in. Dui vivamus arcu felis bibendum ut tristique et egestas. Sit amet nisl purus in mollis nunc sed id.</p>
+          <p id='exp1' className={exp3 ? '' : 'hidden'}>I've created compelling graphic and video content for various clients, as well as some exciting personal projects. This work showcases my versatility and creativity in visual storytelling.</p>
         </div>
         </div>
       </section>
