@@ -1,7 +1,10 @@
 import './App.css';
 import mazpic from './assets/maz.jpg'
 import aboutMePic from './assets/mazaboutme.png'
-import { useEffect, useState } from 'react';
+import emailIcon from './assets/email-icon.png'
+import linkedInIcon from './assets/linkedIn.png'
+import instagramIcon from './assets/instrgam.webp'
+import { useState } from 'react';
 
 function App() {
   const [exp1, setExp1] = useState(true)
@@ -130,6 +133,24 @@ I have a proven track record of producing quality still and video assets, couple
           <h1 id='section-header' className='text-center text-[50px] font-bold'>Contact Me</h1>
         </div>
         <div id='contact container'>
+          <div id='email' className='flex'>
+            <img src={emailIcon} className='h-[30px]'/>
+            <p><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
+          </div>
+
+          <div id='linkedIn' className='flex'>
+            <a href='https://www.linkedin.com/in/mazvitachikava/'>
+              <img src={linkedInIcon} className='h-[30px]'/>
+              <p>LinkedIn</p>
+            </a>
+          </div>
+
+          <div id='Instagram' className='flex'>
+            <a href='https://www.instagram.com/mazvitajoy_/'>
+              <img src={instagramIcon} className='h-[30px]'/>
+              <p>Instagram</p>
+            </a> 
+          </div>
 
         </div>
       </section>
