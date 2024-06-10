@@ -124,8 +124,14 @@ I have a proven track record of producing quality still and video assets, couple
         </div>
         </div>
       </section>
-      <section id='contact-me'>
+      <section id='contact-me' className='flex flex-col h-screen'>
+        <div className='flex flex-col items-center'>
+          <p id='section-preheader' className='text-center text-[18px]'>Get in Touch</p>
+          <h1 id='section-header' className='text-center text-[50px] font-bold'>Contact Me</h1>
+        </div>
+        <div id='contact container'>
 
+        </div>
       </section>
     
     </div>
