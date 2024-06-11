@@ -111,21 +111,23 @@ function App() {
                 onClick={e => toggleExp3()}
             >Design</h1>
         </div>
-        <div id='content-creation-experience'>
-          <p id='exp1' className={exp1 ? '' : 'hidden'}>
-            End-to-End Magic: Mastering the Full Content Creation Process
-            From the initial spark of an idea to its final polished release, I excel in every stage of the content creation journey. My hands-on approach ensures a deep connection to the work, fostering creativity and attention to detail.
+        <div className='flex w-full justify-center'>
+          <div id='content-creation-experience' className='flex flex-wrap w-[850px] mt-[40px]'>
+            <p id='exp1' className={exp1 ? '' : 'hidden'}>
+              End-to-End Magic: Mastering the Full Content Creation Process
+              From the initial spark of an idea to its final polished release, I excel in every stage of the content creation journey. My hands-on approach ensures a deep connection to the work, fostering creativity and attention to detail.
 
-            I have a proven track record of producing quality still and video assets, coupled with the strategic development of social media calendars and scheduling. This combination guarantees a consistent and engaging brand presence across all platforms. My holistic involvement in content creation not only enhances the quality of the output but also drives impactful marketing results.
-          </p>
+              I have a proven track record of producing quality still and video assets, coupled with the strategic development of social media calendars and scheduling. This combination guarantees a consistent and engaging brand presence across all platforms. My holistic involvement in content creation not only enhances the quality of the output but also drives impactful marketing results.
+            </p>
 
-          <p id='exp1' className={exp2 ? '' : 'hidden'}>
-            For Tansy, a Black woman-owned plant nursery and gift shop, I developed and executed social media strategies that boosted engagement, reach, and conversions. This approach significantly enhanced Tansy's online presence, driving greater visibility and sales.
-          </p>
+            <p id='exp1' className={exp2 ? '' : 'hidden'}>
+              For Tansy, a Black woman-owned plant nursery and gift shop, I developed and executed social media strategies that boosted engagement, reach, and conversions. This approach significantly enhanced Tansy's online presence, driving greater visibility and sales.
+            </p>
 
-          <p id='exp1' className={exp3 ? '' : 'hidden'}>
-            I've created compelling graphic and video content for various clients, as well as some exciting personal projects. This work showcases my versatility and creativity in visual storytelling.
-          </p>
+            <p id='exp1' className={exp3 ? '' : 'hidden'}>
+              I've created compelling graphic and video content for various clients, as well as some exciting personal projects. This work showcases my versatility and creativity in visual storytelling.
+            </p>
+          </div>
         </div>
         </div>
       </section>
