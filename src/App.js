@@ -112,46 +112,47 @@ function App() {
             >Design</h1>
         </div>
         <div id='content-creation-experience'>
-          <h1 id='exp1' className={exp1 ? 'text-center' : 'hidden'}>Testing Experience 1</h1>
-          <p id='exp1' className={exp1 ? '' : 'hidden'}>End-to-End Magic: Mastering the Full Content Creation Process
+          <p id='exp1' className={exp1 ? '' : 'hidden'}>
+            End-to-End Magic: Mastering the Full Content Creation Process
+            From the initial spark of an idea to its final polished release, I excel in every stage of the content creation journey. My hands-on approach ensures a deep connection to the work, fostering creativity and attention to detail.
 
-From the initial spark of an idea to its final polished release, I excel in every stage of the content creation journey. My hands-on approach ensures a deep connection to the work, fostering creativity and attention to detail.
+            I have a proven track record of producing quality still and video assets, coupled with the strategic development of social media calendars and scheduling. This combination guarantees a consistent and engaging brand presence across all platforms. My holistic involvement in content creation not only enhances the quality of the output but also drives impactful marketing results.
+          </p>
 
-I have a proven track record of producing quality still and video assets, coupled with the strategic development of social media calendars and scheduling. This combination guarantees a consistent and engaging brand presence across all platforms. My holistic involvement in content creation not only enhances the quality of the output but also drives impactful marketing results.</p>
-        
-          <h1 id='exp1' className={exp2 ? 'text-center' : 'hidden'}>Testing Experience 2</h1>
-          <p id='exp1' className={exp2 ? '' : 'hidden'}>For Tansy, a Black woman-owned plant nursery and gift shop, I developed and executed social media strategies that boosted engagement, reach, and conversions. This approach significantly enhanced Tansy's online presence, driving greater visibility and sales.</p>
-        
-          <h1 id='exp1' className={exp3 ? 'text-center' : 'hidden'}>Testing Experience 3</h1>
-          <p id='exp1' className={exp3 ? '' : 'hidden'}>I've created compelling graphic and video content for various clients, as well as some exciting personal projects. This work showcases my versatility and creativity in visual storytelling.</p>
+          <p id='exp1' className={exp2 ? '' : 'hidden'}>
+            For Tansy, a Black woman-owned plant nursery and gift shop, I developed and executed social media strategies that boosted engagement, reach, and conversions. This approach significantly enhanced Tansy's online presence, driving greater visibility and sales.
+          </p>
+
+          <p id='exp1' className={exp3 ? '' : 'hidden'}>
+            I've created compelling graphic and video content for various clients, as well as some exciting personal projects. This work showcases my versatility and creativity in visual storytelling.
+          </p>
         </div>
         </div>
       </section>
-      <section id='contact-me' className='flex flex-col'>
+      <section id='contact-me' className='flex flex-col h-screen'>
         <div className='flex flex-col items-center'>
           <p id='section-preheader' className='text-center text-[18px]'>Get in Touch</p>
           <h1 id='section-header' className='text-center text-[50px] font-bold'>Contact Me</h1>
         </div>
-        <div id='contact container'>
-          <div id='email' className='flex'>
-            <img src={emailIcon} className='h-[30px]'/>
-            <p><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
-          </div>
+        <div id='contact-container' className='flex justify-center'>
+          <div id='contact-links-container' className='flex flex-col h-[40vh]'>
 
-          <div id='linkedIn' className='flex'>
-            <a href='https://www.linkedin.com/in/mazvitachikava/'>
-              <img src={linkedInIcon} className='h-[30px]'/>
-              <p>LinkedIn</p>
-            </a>
-          </div>
+            <div id='email' className='flex flex-row m-[10px]'>
+              <img src={emailIcon} className='flex h-[30px] mr-[10px]'/>
+              <p className='flex'><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
+            </div>
 
-          <div id='Instagram' className='flex'>
-            <a href='https://www.instagram.com/mazvitajoy_/'>
-              <img src={instagramIcon} className='h-[30px]'/>
-              <p>Instagram</p>
-            </a> 
-          </div>
+            <div id='linkedIn' className='flex flex-row m-[10px]'>
+                <img src={linkedInIcon} className='flex h-[30px] mr-[10px]'/>
+                <p className='flex'><a href='https://www.linkedin.com/in/mazvitachikava/'>LinkedIn</a></p>
+            </div>
 
+            <div id='Instagram' className='flex flex-row m-[10px]'>
+                <img src={instagramIcon} className='flex h-[30px] mr-[10px]'/>
+                <p className='flex'><a href='https://www.instagram.com/mazvitajoy_/'>Instagram</a> </p>
+            </div>
+
+          </div>
         </div>
       </section>
     
