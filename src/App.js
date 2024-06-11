@@ -137,11 +137,11 @@ function App() {
           <h1 id='section-header' className='text-center text-[50px] font-bold'>Contact Me</h1>
         </div>
         <div id='contact-container' className='flex justify-center'>
-          <div id='contact-links-container' className='flex flex-col h-[40vh]'>
+          <div id='contact-links-container' className='flex flex-col h-fit border border-black rounded-2xl'>
 
             <div id='email' className='flex flex-row m-[10px]'>
               <img src={emailIcon} className='flex h-[30px] mr-[10px]'/>
-              <p className='flex'><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
+              <p className='flex hover:underline hover:text-gray-600 transition'><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
             </div>
 
             <div id='linkedIn' className='flex flex-row m-[10px]'>
