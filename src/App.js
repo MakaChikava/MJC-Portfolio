@@ -57,13 +57,13 @@ function App() {
           </div>
 
           <div id='headline-container' className='flex flex-col justify-center items-center w-1/3'>
-            <p className='font-semibold text-[18px] text-white'>Hello, I'm</p>
-            <h1 id='name' className='font-bold text-[50px] text-sand font-josefin'>Mazvita Chikava</h1>
-            <h1 id='title' className='font-semibold text-[30px] text-seashell'>Social Media Marketing</h1>
+            <p className='font-exo text-[18px] text-white'>Hello, I'm</p>
+            <h1 id='name' className='font-bold font-josefin text-[50px] text-sand '>Mazvita Chikava</h1>
+            <h1 id='title' className='font-exo font-semibold text-[30px] text-seashell'>Social Media Marketing</h1>
 
             <div id='profile-btn-container' className='flex w-[350px] justify-around mt-5'>
-              <button id='resume-btn' className=' bg-transparent border text-sand border-terracota hover:bg-terracota  duration-500 rounded-full p-4 font-bold '>Download CV</button>
-              <button id='contact-btn' className='bg-terracota border border-orange-700 hover:bg-orange-700 duration-500 rounded-full p-4 text-sand font-bold'>Contact Info</button>
+              <button id='resume-btn' className=' bg-transparent border text-sand border-terracota hover:bg-terracota  duration-500 rounded-full p-4 font-bold font-exo'>Download CV</button>
+              <button id='contact-btn' className='bg-terracota border border-orange-700 hover:bg-orange-700 duration-500 rounded-full p-4 text-sand font-bold font-exo'>Contact Info</button>
             </div>
           </div>
 
