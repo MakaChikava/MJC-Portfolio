@@ -50,7 +50,7 @@ function App() {
         </div>
       </nav>
 
-      <section id='profile' className='flex justify-center h-screen'>
+      <section id='profile' className='bg-bgGrain flex justify-center h-screen'>
         
           <div id='profile-pic-container' className='flex justify-center items-center w-1/3'>
             <img src={mazpic} alt='' className='rounded-[100px]'/>
