@@ -72,22 +72,22 @@ function App() {
 
       <section id='about' className='flex flex-col h-screen'>
         <div className='flex flex-col items-center'>
-          <p id='section-preheader' className='text-center text-[18px]'>Get to know more</p>
-          <h1 id='section-header' className='text-center text-[50px] font-bold'>About Me</h1>
+          <p id='section-preheader' className='font-exo text-seashell text-center text-[18px]'>Get to know more</p>
+          <h1 id='section-header' className='font-josefin text-sand text-center text-[55px] font-bold'>About Me</h1>
         </div>
 
         <div className='flex justify-center items-center h-full'>
           <div id='about-pic' className='flex mr-8'>
             <img src={aboutMePic} alt='' className='h-[450px] w-[600px] rounded-full'/>
           </div>
-          <div id='aboutme-content-container' className='flex flex-col h-[450px] w-[400px] ml-8'>
-            <p className='m-3'>I'm Mazvita , but most people in my life call me Maz! I am a plant obsessed, puzzle loving social marketer who bases her life's philosophy on nurturing creativity, positive interactions and growth.
+          <div id='aboutme-content-container' className='flex flex-col h-[450px] w-1/2 ml-8'>
+            <p className='m-3 text-seashell font-exo text-[18px]'>I'm Mazvita , but most people in my life call me Maz! I am a plant obsessed, puzzle loving social marketer who bases her life's philosophy on nurturing creativity, positive interactions and growth.
             </p>
 
-            <p className='m-3'>I received my undergraduate degree  in Psychology from Seattle Pacific University and I’m a self-taught creative who hails from the Sunshine City, Harare, in Zimbabwe. I’m heavily influenced by the delicate yet profound nuances that are embedded within different
+            <p className='m-3 text-seashell font-shadows text-[22px]'>I received my undergraduate degree  in Psychology from Seattle Pacific University and I’m a self-taught creative who hails from the Sunshine City, Harare, in Zimbabwe. I’m heavily influenced by the delicate yet profound nuances that are embedded within different
             </p>
 
-            <p className='m-3'>cultures like patterns, historic writings, graphic symbols and colour as a form of visual and global communication.
+            <p className='m-3 text-seashell font-marker text-[18px]'>cultures like patterns, historic writings, graphic symbols and colour as a form of visual and global communication.
             </p>
 
           </div>
