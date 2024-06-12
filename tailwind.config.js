@@ -9,8 +9,12 @@ module.exports = {
         'bgGrain':"url('../src/assets/blacktexturedbackground.jpeg')",
       },
       colors:{
-        'sand':"ffdfbf",
-        'seashell':"f9f3ed"
+        'sand':"#ffdfbf",
+        'seashell':"#f9f3ed"
+      },
+      fontFamily:{
+        'josefin':["Josefin Sans", "sans-serif"],
+        'exo':["Exo", "sans-serif"]
       }
     },
   },
