@@ -62,8 +62,8 @@ function App() {
             <h1 id='title' className='font-semibold text-[30px] text-seashell'>Social Media Marketing</h1>
 
             <div id='profile-btn-container' className='flex w-[350px] justify-around mt-5'>
-              <button id='resume-btn' className='bg-white border text-black border-black hover:bg-black hover:text-white duration-500 rounded-full p-4 font-bold '>Download CV</button>
-              <button id='contact-btn' className='bg-black rounded-full p-4 text-white font-bold'>Contact Info</button>
+              <button id='resume-btn' className=' bg-transparent border text-sand border-terracota hover:bg-terracota  duration-500 rounded-full p-4 font-bold '>Download CV</button>
+              <button id='contact-btn' className='bg-terracota border border-orange-700 hover:bg-orange-700 duration-500 rounded-full p-4 text-sand font-bold'>Contact Info</button>
             </div>
           </div>
 

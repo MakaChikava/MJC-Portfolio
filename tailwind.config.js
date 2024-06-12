@@ -10,11 +10,15 @@ module.exports = {
       },
       colors:{
         'sand':"#ffdfbf",
-        'seashell':"#f9f3ed"
+        'seashell':"#f9f3ed",
+        'terracota':"#cc6448",
+
       },
       fontFamily:{
-        'josefin':["Josefin Sans", "sans-serif"],
-        'exo':["Exo", "sans-serif"]
+        'josefin': ["Josefin Sans", "sans-serif"],
+        'exo': ["Exo", "sans-serif"],
+        'shadows': ["Shadows Into Light", "cursive"],
+        'marker': ["Permanent Marker", "cursive"]
       }
     },
   },
