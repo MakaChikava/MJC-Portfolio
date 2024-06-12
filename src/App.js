@@ -62,13 +62,14 @@ function App() {
             <h1 id='title' className='font-semibold text-[30px] text-gray-500'>Social Media Marketing</h1>
 
             <div id='profile-btn-container' className='flex w-[350px] justify-around mt-5'>
-              <button id='resume-btn' className='bg-white border text-black border-black hover:bg-black hover:text-white transition rounded-full p-4 font-bold '>Download CV</button>
+              <button id='resume-btn' className='bg-white border text-black border-black hover:bg-black hover:text-white duration-500 rounded-full p-4 font-bold '>Download CV</button>
               <button id='contact-btn' className='bg-black rounded-full p-4 text-white font-bold'>Contact Info</button>
             </div>
           </div>
 
         
       </section>
+
       <section id='about' className='flex flex-col h-screen'>
         <div className='flex flex-col items-center'>
           <p id='section-preheader' className='text-center text-[18px]'>Get to know more</p>
@@ -93,6 +94,7 @@ function App() {
         </div>
 
       </section>
+
       <section id='experience' className='flex flex-col h-screen'>
         <div className='flex flex-col items-center'>
           <p id='section-preheader' className='text-center text-[18px]'>Explore my</p>
@@ -131,6 +133,7 @@ function App() {
         </div>
         </div>
       </section>
+
       <section id='contact-me' className='flex flex-col h-screen'>
         <div className='flex flex-col items-center'>
           <p id='section-preheader' className='text-center text-[18px]'>Get in Touch</p>
@@ -141,17 +144,17 @@ function App() {
 
             <div id='email' className='flex flex-row m-[10px]'>
               <img src={emailIcon} className='flex h-[30px] mr-[10px]'/>
-              <p className='flex hover:underline hover:text-gray-600 transition'><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
+              <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
             </div>
 
             <div id='linkedIn' className='flex flex-row m-[10px]'>
                 <img src={linkedInIcon} className='flex h-[30px] mr-[10px]'/>
-                <p className='flex'><a href='https://www.linkedin.com/in/mazvitachikava/'>LinkedIn</a></p>
+                <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href='https://www.linkedin.com/in/mazvitachikava/'>LinkedIn</a></p>
             </div>
 
             <div id='Instagram' className='flex flex-row m-[10px]'>
                 <img src={instagramIcon} className='flex h-[30px] mr-[10px]'/>
-                <p className='flex'><a href='https://www.instagram.com/mazvitajoy_/'>Instagram</a> </p>
+                <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href='https://www.instagram.com/mazvitajoy_/'>Instagram</a> </p>
             </div>
 
           </div>
