@@ -36,19 +36,19 @@ function App() {
   }
 
   return (
-    <div id='body'>
-      <nav className='flex justify-between h-[80px] bg-black drop-shadow-xl'>
-        <div id='logo-container' className='flex items-center ml-4'>
-          <span id='logo' className='font-semibold text-white'>Mazvita Chikava</span>
-        </div>
+    <div id='body' className='bg-bgGrain'>
+        <nav className='sticky top-0 flex justify-between h-[100px] bg-black bg-opacity-25 '>
+          <div id='logo-container' className='flex items-center ml-4'>
+            <span id='logo' className='font-semibold text-white'>MAZVITA CHIKAVA</span>
+          </div>
 
-        <div id='nav-links-container' className='flex items-center justify-between mr-4 w-[300px]'>
-          <a href='#profile'><h1 id='nav-links' className='text-white'>Profile</h1></a>
-          <a href='#about'><h1 id='nav-links' className='text-white'>About</h1></a>
-          <a href='#experience'><h1 id='nav-links' className='text-white'>Experience</h1></a>
-          <a href='#contact-me'><h1 id='nav-links' className='text-white'>Contact</h1></a>
-        </div>
-      </nav>
+          <div id='nav-links-container' className='flex items-center justify-between mr-4 w-[300px]'>
+            <a href='#profile'><h1 id='nav-links' className='text-white'>PROFILE</h1></a>
+            <a href='#about'><h1 id='nav-links' className='text-white'>ABOUT</h1></a>
+            <a href='#experience'><h1 id='nav-links' className='text-white'>EXPERIENCE</h1></a>
+            <a href='#contact-me'><h1 id='nav-links' className='text-white'>CONTACT</h1></a>
+          </div>
+        </nav>
 
       <section id='profile' className='bg-bgGrain flex justify-center h-screen'>
         
