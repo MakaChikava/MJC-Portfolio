@@ -38,15 +38,15 @@ function App() {
   return (
     <div id='body' className='bg-bgGrain'>
         <nav className='sticky top-0 flex justify-between h-[100px] bg-black bg-opacity-25 '>
-          <div id='logo-container' className='flex items-center ml-4'>
-            <span id='logo' className='font-semibold text-white'>MAZVITA CHIKAVA</span>
+          <div id='logo-container' className='flex items-center ml-20'>
+            <span id='logo' className='font-shadows font-semibold text-4xl text-white'>MC</span>
           </div>
 
-          <div id='nav-links-container' className='flex items-center justify-between mr-4 w-[300px]'>
-            <a href='#profile'><h1 id='nav-links' className='text-white'>PROFILE</h1></a>
-            <a href='#about'><h1 id='nav-links' className='text-white'>ABOUT</h1></a>
-            <a href='#experience'><h1 id='nav-links' className='text-white'>EXPERIENCE</h1></a>
-            <a href='#contact-me'><h1 id='nav-links' className='text-white'>CONTACT</h1></a>
+          <div id='nav-links-container' className='flex items-center justify-between mr-20 w-[400px]'>
+            <a href='#profile'><h1 id='nav-links' className='text-white text-lg font-exo'>PROFILE</h1></a>
+            <a href='#about'><h1 id='nav-links' className='text-white text-lg font-exo'>ABOUT</h1></a>
+            <a href='#experience'><h1 id='nav-links' className='text-white text-lg font-exo'>EXPERIENCE</h1></a>
+            <a href='#contact-me'><h1 id='nav-links' className='text-white text-lg font-exo'>CONTACT</h1></a>
           </div>
         </nav>
 
@@ -56,10 +56,10 @@ function App() {
             <img src={mazpic} alt='' className='rounded-[100px]'/>
           </div>
 
-          <div id='headline-container' className='flex flex-col justify-center items-center w-1/3'>
+          <div id='headline-container' className='flex flex-col justify-center items-center w-1/2'>
             <p className='font-exo text-[18px] text-white'>Hello, I'm</p>
-            <h1 id='name' className='font-bold font-josefin text-[50px] text-sand '>Mazvita Chikava</h1>
-            <h1 id='title' className='font-exo font-semibold text-[30px] text-seashell'>Social Media Marketing</h1>
+            <h1 id='name' className='font-bold font-josefin text-[55px] text-sand '>Mazvita Chikava</h1>
+            <h1 id='title' className='font-exo font-semibold text-[28px] text-seashell'>Social Media Marketing</h1>
 
             <div id='profile-btn-container' className='flex w-[350px] justify-around mt-5'>
               <button id='resume-btn' className=' bg-transparent border text-sand border-terracota hover:bg-terracota  duration-500 rounded-full p-4 font-bold font-exo'>Download CV</button>
