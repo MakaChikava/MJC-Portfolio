@@ -103,13 +103,13 @@ function App() {
 
         <div id='experience-slides' className='flex flex-col h-full'>
         <div id='experience-links-container' className='flex justify-center'>
-            <h1 className={exp1 ? ' underline mx-12 text-[25px]' : 'mx-12 text-[25px]'}
+            <h1 className={exp1 ? ' underline underline-offset-[10px] mx-12 text-[25px]' : 'mx-12 text-[25px] cursor-pointer hover:text-neutral-500 duration-500'}
                 onClick={e => toggleExp1()}
             >Content Creation</h1>
-            <h1 className={exp2 ? ' underline mx-12 text-[25px]' : 'mx-12 text-[25px]'}
+            <h1 className={exp2 ? ' underline underline-offset-[10px] mx-12 text-[25px]' : 'mx-12 text-[25px] cursor-pointer hover:text-neutral-500'}
                 onClick={e => toggleExp2()}
             >Social Media Management & Growth</h1>
-            <h1 className={exp3 ? ' underline mx-12 text-[25px]' : 'mx-12 text-[25px]'}
+            <h1 className={exp3 ? ' underline underline-offset-[10px] mx-12 text-[25px]' : 'mx-12 text-[25px] cursor-pointer hover:text-neutral-500'}
                 onClick={e => toggleExp3()}
             >Design</h1>
         </div>
