@@ -12,7 +12,7 @@ function App() {
   const [exp3, setExp3] = useState(false)
 
   const toggleExp1 = ()=>{
-    if(exp1 == false){
+    if(exp1 === false){
       setExp1(!exp1)
       setExp2(false);
       setExp3(false);
@@ -20,7 +20,7 @@ function App() {
   }
 
   const toggleExp2 = ()=>{
-    if(exp2 == false){
+    if(exp2 === false){
       setExp2(!exp2)
       setExp1(false);
       setExp3(false);
@@ -28,7 +28,7 @@ function App() {
   }
 
   const toggleExp3 = ()=>{
-    if(exp3 == false){
+    if(exp3 === false){
       setExp3(!exp3)
       setExp1(false);
       setExp2(false);
@@ -53,7 +53,7 @@ function App() {
       <section id='profile' className='flex justify-center h-screen'>
         
           <div id='profile-pic-container' className='flex justify-center items-center w-1/3'>
-            <img src={mazpic} className='rounded-[100px]'/>
+            <img src={mazpic} alt='' className='rounded-[100px]'/>
           </div>
 
           <div id='headline-container' className='flex flex-col justify-center items-center w-1/3'>
@@ -78,7 +78,7 @@ function App() {
 
         <div className='flex justify-center items-center h-full'>
           <div id='about-pic' className='flex mr-8'>
-            <img src={aboutMePic} className='h-[450px] w-[600px] rounded-full'/>
+            <img src={aboutMePic} alt='' className='h-[450px] w-[600px] rounded-full'/>
           </div>
           <div id='aboutme-content-container' className='flex flex-col h-[450px] w-[400px] ml-8'>
             <p className='m-3'>I'm Mazvita , but most people in my life call me Maz! I am a plant obsessed, puzzle loving social marketer who bases her life's philosophy on nurturing creativity, positive interactions and growth.
@@ -143,17 +143,17 @@ function App() {
           <div id='contact-links-container' className='flex flex-col h-fit border border-black rounded-2xl'>
 
             <div id='email' className='flex flex-row m-[10px]'>
-              <img src={emailIcon} className='flex h-[30px] mr-[10px]'/>
+              <img src={emailIcon} alt='' className='flex h-[30px] mr-[10px]'/>
               <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
             </div>
 
             <div id='linkedIn' className='flex flex-row m-[10px]'>
-                <img src={linkedInIcon} className='flex h-[30px] mr-[10px]'/>
+                <img src={linkedInIcon} alt='' className='flex h-[30px] mr-[10px]'/>
                 <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href='https://www.linkedin.com/in/mazvitachikava/'>LinkedIn</a></p>
             </div>
 
             <div id='Instagram' className='flex flex-row m-[10px]'>
-                <img src={instagramIcon} className='flex h-[30px] mr-[10px]'/>
+                <img src={instagramIcon} alt='' className='flex h-[30px] mr-[10px]'/>
                 <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href='https://www.instagram.com/mazvitajoy_/'>Instagram</a> </p>
             </div>
 
