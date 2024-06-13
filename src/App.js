@@ -134,33 +134,35 @@ function App() {
         </div>
       </section>
 
-      <section id='contact-me' className='flex flex-col h-screen'>
+      <section id='contact-me' className='flex flex-col h-[60vh]'>
         <div className='flex flex-col items-center'>
-          <p id='section-preheader' className='text-center text-[18px]'>Get in Touch</p>
-          <h1 id='section-header' className='text-center text-[50px] font-bold'>Contact Me</h1>
+          <p id='section-preheader' className='font-exo text-seashell text-center text-[18px]'>Get in Touch</p>
+          <h1 id='section-header' className='font-josefin text-sand text-center text-[50px] font-bold'>Contact Me</h1>
         </div>
         <div id='contact-container' className='flex justify-center'>
-          <div id='contact-links-container' className='flex flex-col h-fit border border-black rounded-2xl'>
+          <div id='contact-links-container' className='flex flex-col justify-center items-center h-[30vh] border border-terracota rounded-2xl w-[60vh]'>
 
-            <div id='email' className='flex flex-row m-[10px]'>
-              <img src={emailIcon} alt='' className='flex h-[30px] mr-[10px]'/>
-              <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
-            </div>
+            <div id='border-container' className='flex flex-col items-start w1/2'>
+              <div id='email' className='flex flex-row m-[10px]'>
+                <img src={emailIcon} alt='' className='flex h-[30px] mr-[10px]'/>
+                <p className='flex font-exo text-seashell hover:text-terracota hover:underline hover:underline-offset-[15px] duration-500 text-2xl'><a href="mailto:Chikavamazvita@gmail.com">Chikavamazvita@gmail.com</a> </p>
+              </div>
 
-            <div id='linkedIn' className='flex flex-row m-[10px]'>
-                <img src={linkedInIcon} alt='' className='flex h-[30px] mr-[10px]'/>
-                <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href='https://www.linkedin.com/in/mazvitachikava/'>LinkedIn</a></p>
-            </div>
+              <div id='linkedIn' className='flex flex-row m-[10px]'>
+                  <img src={linkedInIcon} alt='' className='flex h-[30px] mr-[10px]'/>
+                  <p className='flex font-exo text-seashell hover:text-terracota hover:underline hover:underline-offset-[15px] duration-500 text-2xl'><a href='https://www.linkedin.com/in/mazvitachikava/'>LinkedIn</a></p>
+              </div>
 
-            <div id='Instagram' className='flex flex-row m-[10px]'>
-                <img src={instagramIcon} alt='' className='flex h-[30px] mr-[10px]'/>
-                <p className='flex hover:underline hover:underline-offset-[10px] hover:text-neutral-500 hover:duration-500 text-2xl'><a href='https://www.instagram.com/mazvitajoy_/'>Instagram</a> </p>
+              <div id='Instagram' className='flex flex-row m-[10px]'>
+                  <img src={instagramIcon} alt='' className='flex h-[30px] mr-[10px]'/>
+                  <p className='flex font-exo text-seashell hover:text-terracota hover:underline hover:underline-offset-[15px] duration-500 text-2xl'><a href='https://www.instagram.com/mazvitajoy_/'>Instagram</a> </p>
+              </div>
             </div>
 
           </div>
         </div>
       </section>
-    
+      <p className='text-center text-seashell'>Copyright © 2024 Mazvita Chikava. All Rights Reserved.</p>
     </div>
   );
 }
